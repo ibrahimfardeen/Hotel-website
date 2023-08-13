@@ -9,6 +9,7 @@
     background-color: rgba(0, 0, 0, 0.5);
     height: 100vh;
     position: relative;
+    text-align: center;
 }
 .hero-text{
     color: white;
@@ -16,4 +17,13 @@
     top:50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+.book-button{
+    background-color: aqua;
+    font-size: 18px;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    
 }
