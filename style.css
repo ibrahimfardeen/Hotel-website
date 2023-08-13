@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 .hero-section{
     background-image: url(banner.jpg);
@@ -18,12 +19,25 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.book-button{
+.book-button, .know-button{
+    cursor: pointer;
     background-color: aqua;
     font-size: 18px;
     border: none;
     border-radius: 15px;
     padding: 10px 20px;
     margin-top: 10px;
-    
+
+}
+.about-us{
+    float: left;
+    width: 50%;
+    margin: 10px 10px;
+    text-align: center;
+}
+.about-section h1 {
+    text-align: center;
+    margin: 10px 0px;
+    text-decoration: underline;
+
 }
