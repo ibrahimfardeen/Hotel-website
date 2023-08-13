@@ -41,3 +41,11 @@
     text-decoration: underline;
 
 }
+.amenities{
+    text-align: center;
+}
+.amenities ul{
+    display: inline-block;
+    text-align: left;
+    margin-top: 10px;
+}
